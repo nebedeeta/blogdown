@@ -1,0 +1,45 @@
+baseurl = "https://nibedeeta.github.io/"
+languageCode = "en-us"
+title = "Bravo Nibedeeta"
+theme = "hugo-coder"
+googleAnalytics = ""
+disqusShortname = ""
+publishDir = "/Users/tulliapadellini/Documents/GitHub/nebedeeta.github.io"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/rstudio/blogdown"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
+
+[params]
+    author = "Nebedeeta had a plan"
+    description = "John Doe's personal website"
+    keywords = "blog,developer,personal"
+    info = " "
+
+
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
