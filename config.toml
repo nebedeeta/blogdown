@@ -21,7 +21,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://twitter.com/rstudio"
 
 [params]
-    author = "Nebedeeta had a plan"
+    author = "Nibedeeta had a plan"
     description = "John Doe's personal website"
     keywords = "blog,developer,personal"
     info = " "
