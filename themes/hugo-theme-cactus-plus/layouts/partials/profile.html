@@ -4,6 +4,9 @@
             <a href='{{ with .Site.Params.avatarLink }}{{ . }}{{ else }}{{ .Site.BaseURL }}about{{ end }}'>
                 <img class="2x" src="{{ .Site.BaseURL }}images/avatar.png" width="1500"/>
             </a>
+            <br>
+            <br>
+            <br>
             <h1>{{ .Site.Title }}</h1>
             {{ with .Site.Params.author }}<h2>{{ . | markdownify }}</h2>{{ end }}
         </header>

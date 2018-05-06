@@ -57,7 +57,7 @@ In terms of priors (and although this is a discussion that could last a lifetime
 
 Before having a look at the first results, keep in mind that we started the analysis before the results of the first semi-finals. By the time we got model running and had a first draft, we could add the results of the first semi-finals, and thus update the dataset and compare the predictions. Of course now we know the teams that will compete on the final match (Liverpool and Real Madrid) but for the sake of discussion we will act like we don't know. 
 
-Enough with the babbling, my dad wants to know if the money spent on my education, and the fact that he hasn't seen any grandchild yet worth it. 
+Enough with the babbling, my dad wants to know if the money spent on my education, and the fact that he hasn't seen any grandchild yet is worth it. 
 
 Table 1 shows the expected goals not taking into consideration the first round of semi-finals, whereas Table 2 takes into account the first round of semi-finals. The columns of these Tables show the mean goals and standard deviation scored by each team, and the probability of a win, loose or tie with the corresponding credibility regions. 
 
