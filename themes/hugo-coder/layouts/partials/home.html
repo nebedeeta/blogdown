@@ -10,4 +10,12 @@
     </ul>
     {{ end }}
   </div>
+<div class="post-content clearfix">
+    {{ with .Params.Image }}
+        <img class="post-featured-image" src="{{ . }}">
+    {{ end }}
+
+    {{ .Content }}
+</div>
 </section>
+
