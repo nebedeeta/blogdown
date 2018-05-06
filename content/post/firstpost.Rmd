@@ -73,9 +73,11 @@ load("UpdatedTables.RData")
 
 colnames <- c("H-Team", "A-Team", "H-Goal<br/> Mean (sd)", "A-Goal<br/> Mean (sd)", "H-Team wins<br/> P (CI)", 
               "A-team wins<br/> P (CI)", "Tie<br/> P (CI)")
-knitr::kable(Tab_1, caption = "Table 1. Predictions without first round of the semi-finals", 
+knitr::kable(Tab_1, caption = "Predictions without first round of the semi-finals", 
              col.names =  colnames)
-knitr::kable(Tab_3, caption = "Table 2. Predictions with first round of the semi-finals", 
+```
+```{r}
+knitr::kable(Tab_3, caption = "Predictions with first round of the semi-finals", 
              col.names =  colnames)
 ```
 
@@ -86,7 +88,7 @@ load("UpdatedTables.RData")
 
 colnames <- c("H-Team", "A-Team", "H-Goal<br/> Mean (sd)", "A-Goal<br/> Mean (sd)", "H-Team wins<br/> P (CI)", 
               "A-team wins<br/> P (CI)", "Tie<br/> P (CI)")
-knitr::kable(Tab_2, caption = "Table 3. Predictions with first round of the semi-finals and phase effect", 
+knitr::kable(Tab_2, caption = "Predictions with first round of the semi-finals and phase effect", 
              col.names =  colnames)
 ```
 
@@ -98,7 +100,7 @@ load("UpdatedTable_4.RData")
 colnames <- c("H-Team", "A-Team", "H-Goal<br/> Mean (sd)", "A-Goal<br/> Mean (sd)", "H-Team wins<br/> P (CI)", 
               "A-team wins<br/> P (CI)", "Tie<br/> P (CI)")
 knitr::kable(Tab_4,  col.names =  colnames, 
-             caption = "Table 4. All possible prediction for the Champion's League winner")
+             caption = "All possible prediction for the Champion's League winner")
 ```
 
 
