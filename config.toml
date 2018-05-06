@@ -1,6 +1,6 @@
 baseurl = "https://nibedeeta.github.io"
 languageCode = "en-us"
-title = "Bravo Nibedeeta"
+title = "Nibedeeta had a plan"
 theme = "hugo-theme-cactus-plus"
 googleAnalytics = ""
 disqusShortname = "nibedeeta"
@@ -9,7 +9,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 reading_time = false
 
 [params]
-  author = "Nibedeeta had a plan"
+  author = "Bravo Nibedeeta"
   description = "Stats and words of wisdom"
   keywords = "blog,developer,personal"
   info = " "
