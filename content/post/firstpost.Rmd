@@ -12,7 +12,6 @@ tags:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Introduction
 Football is the leader sport in [31 out of the 51 countries](https://www.snack-media.com/2016/05/how-popular-is-football-around-the-world/) in Europe and to avoid putative misunderstanding with our American readers, I mean soccer amigos. Europeans express their love for football in various and diverse ways, most of them accompanied with alcohol and flatbread Italian delicacies. But we are not here to judge, we are here to make money (well, try to make money at least). 
 
 I hate to admit that this post is not scientifically motivated. Invoking our inner nerds (dude let's not elaborate on that, to come to the point and read this post, you must be a nerd) we all reminisce moments when our obsessed-with-football-betting dad asked us for a scientific advice on which team will win. 
