@@ -23,7 +23,7 @@ There several ways to reply to a request like that:
 - you can take a random guess (for the unlucky nerds I think the 0.33 probability is a no go) 
 - you can let nerds with hardly any social skills, do it formally for you. 
 
-If you are here, you are probably smart enough to choose the last option, which spares you hours of literature review, data searching, coding and many other activities that ensure that we will die alone, hoping that the result worth the effort.
+If you are here, you are probably smart enough to choose the last option, which spares you hours of literature review, data searching, coding and many other activities that ensure that we will die alone, hoping that the result was worth the effort.
 
 
 After some research, we discovered this annual football competition called UEFA Champion's league that attracts a lot of football fan attention. For us football ignorant nerds, you can think of Champion's League as the annual ISBA^[International Society of Bayesian Statistics -- the one that asks for contributions for mantaining Reverend Bayes tomb in mint conditions, no joke] conference where non-EU based professors are not allowed to participate (I know ISBA without Gelman is like garlic sauce without garlic). Professors (Barcelona, Liverpool etc) and young researchers (Dynamo Kiev, Benfica etc) are then called to compete one another by presenting cool but time consuming MC samplers (INLA rocks!). 
@@ -104,7 +104,7 @@ knitr::kable(Tab_4,  col.names =  colnames,
 
 ## Wrapping up
 
-Oh guys we admitted it already in the results that the model is more or less crappy as far as predicting precise scores. This reflects the complexity of the issue and the incredible amount of randomness in the result: who would have bet that Roma will have beaten Livelpool 4-2? Maybe it's better if we go back to the old school way (i.e. applying for grants) rather than trying to fund our future Post-docs with money won gambling. 
+Oh guys we admitted it already in the results that the model is more or less crappy as far as predicting precise scores. This reflects the complexity of the issue and the incredible amount of randomness in the result: who would have bet that Roma would have won against Livelpool 4-2? Maybe it's better if we go back to the old school way (i.e. applying for grants) rather than trying to fund our future Post-docs with money won gambling. 
 
 Of course, we could always try to improve predictions by introducing a temporal structure within the season, or using data from previous seasons to inform our priors or even use covariates (team budget, injuries, mean sexual appetite of players' girlfriend etc.) and so on and so forth. However this may not be a viable option for Champion's League results, where we have to deal with an additional complication: we hardly have any data on each team (at least in comparison to national Leagues, where each team plays with all the other teams of the League). Thus adding complexity here (read parameters) might not be the way to go (good luck fitting a 20 parameters model). This is exactly the case where fancier does not mean better predictions (turns out [Occam](https://simple.wikipedia.org/wiki/Occam%27s_razor) isn't just an excuse to show that statistician are not arid people but they have deep and philosophical interests as well). 
 
