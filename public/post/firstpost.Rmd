@@ -1,6 +1,6 @@
 ---
 title: "Can we predict the 2018 Champion's League winner?"
-date: '2018-05-10'
+date: '2018-04-21T21:13:14-05:00'
 subtitle: Don't bet your savings!
 tags:
   - Soccer

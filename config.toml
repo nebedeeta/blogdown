@@ -6,37 +6,17 @@ googleAnalytics = ""
 disqusShortname = "nibedeeta"
 publishDir = "/Users/tulliapadellini/Documents/GitHub/nebedeeta.github.io"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-
-
-
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
+reading_time = false
 
 [params]
-    author = "Nibedeeta had a plan"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    info = " "
-
-
-
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
-
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
-
-
+  author = "Nibedeeta had a plan"
+  description = "Stats and words of wisdom"
+  keywords = "blog,developer,personal"
+  info = " "
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = true
+	#enableDisqus = true
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
 	useDescriptionReplaceSummary = false
@@ -45,11 +25,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	enableGoogleAnalytics = true
 	enableBaiduAnalytics = false
 	# Set the value to your baidu analysis code if you want to use baidu analytics
-	baiduAnalytics = 'your_baidu_analysis_code'
 
-	enableTwitterCard = true
+#	enableTwitterCard = true
 	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = ""
+#	twitterCardImage = ""
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = []
@@ -88,7 +67,3 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
 # Add additional social link entries underneath
-[social]
-	facebook-square = "https://www.facebook.com/nodejh"
-	twitter-square = "https://www.twitter.com/nodejh"
-	github-square = "https://www.github.com/nibedeeta"
